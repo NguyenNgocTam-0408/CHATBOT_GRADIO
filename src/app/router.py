@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from starlette.responses import StreamingResponse
 
-from .services import generate_response_stream
+from src.app.services.services import generate_response_stream
 
 router = APIRouter()
 

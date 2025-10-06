@@ -1,6 +1,6 @@
 import gradio as gr
 import time
-from app.services import generate_response_stream
+from src.app.services.services import generate_response_stream
 
 
 def streaming_chat(message, history):
